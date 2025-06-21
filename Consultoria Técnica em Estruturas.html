@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Consultoria Técnica em Estruturas</title>
+  <link rel="shortcut icon" href="favicon.png" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="static/css/boostrap.min.css" />
+  <!-- Seu CSS personalizado -->
+  <link rel="stylesheet" href="static/css/custom.css" />
+</head>
+<body>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="static/img/services-6.jpg" class="img-fluid rounded" alt="Supervisão de Obras Industriais" />
+      </div>
+      <div class="col-md-6">
+        <h1 class="mb-3">Consultoria Técnica em Estruturas</h1>
+        <p>Prestamos apoio especializado na concepção e análise de soluções estruturais, com enfoque na segurança, rigor técnico e eficiência na obra.</p>
+        <p><strong>Preço:</strong> Sob consulta</p>
+        <form action="Azulejaria & Pintura.php" method="POST">
+          <div class="mb-3">
+            <label for="nome" class="form-label">Nome Completo</label>
+            <input type="text" class="form-control" id="nome" name="nome" placeholder="Digite seu nome" required />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">E-mail</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Digite seu e-mail" required />
+          </div>
+          <div class="mb-3">
+            <label for="mensagem" class="form-label">Mensagem</label>
+            <textarea class="form-control" id="mensagem" name="mensagem" rows="4" placeholder="Descreva o seu projeto ou solicitação" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Solicitar Orçamento</button>
+            <a href="serviços.html" class="btn btn-secondary">Voltar ao serviços</a>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- Bootstrap JS (opcional para interatividade) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
